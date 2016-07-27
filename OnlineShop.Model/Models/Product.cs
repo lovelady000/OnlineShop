@@ -44,5 +44,8 @@ namespace OnlineShop.Model.Models
 
         [ForeignKey("CategoryID")]
         public virtual ProductCategory ProductCategory { set; get; }
+
+
+
     }
 }
